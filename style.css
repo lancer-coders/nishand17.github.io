@@ -2,12 +2,15 @@ body {
 	overflow-x: hidden;
 	font-family: Arvo, "Helvetica Neue", Arial;
 	font-size: 14px;
-	background-color: #ffffff
-	color: #000000;
+	background-color: #D14C47
+	color: #D14C47;
+}
+div {
+    display: block;
 }
 header {
 	text-align: center;
-	color: ;
+	color: #ffffff;
 	background-image: initial;
     background-position-x: initial;
     background-position-y: initial;
@@ -17,22 +20,23 @@ header {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: #1FDA9A;
-    border-top-color: #1DD194;
+    background-color: #DF514C;
+    border-top-color: #D14C47;
     border-top-style: solid;
     border-top-width: 1vw;
-    border-right-color: #1DD194;
+    border-right-color: #D14C47;
     border-right-style: solid;
     border-right-width: 1vw;
-    border-bottom-color: #1DD194;
+    border-bottom-color: #D14C47;
     border-bottom-style: solid;
     border-bottom-width: 1vw;
-    border-left-color: #1DD194;
+    border-left-color: #D14C47;
     border-left-style: solid;
     border-left-width: 1vw;
 }
+/* green = #1FDA9A*/
 header .container {
-	padding-top: 100px;
+	padding-top: 50px;
     padding-bottom: 50px;
     margin-right: auto;
     margin-left: auto;
@@ -47,18 +51,44 @@ header .description .myName {
 	display: block;
     text-transform: uppercase;
     font-family: Arvo, "Helvetica Neue" Helvetica;
-    font-size: 2em;
-    font-weight: 700;
+    font-size: 60px;
+    font-weight: 1050;
+}
+* {
+    box-sizing: border-box;
 }
 header .description .skills {
 	font-family: Arvo, "Helvetica Neue" Helvetica;
-	font-size: 1.25em;
+	font-size: 25px;
     font-weight: 300;
 }
-header .sup {
-	display: block;
-    text-transform: uppercase;
-    font-family: Arvo, "Helvetica Neue" Helvetica;
-    font-size: 2em;
-    font-weight: 700;
+.nishan {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.img-responsive {
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+}
+header img {
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
