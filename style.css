@@ -1,0 +1,33 @@
+body {
+	overflow-x: hidden;
+	font-family: "Arvo, Helvetica Neue, Arial";
+	font-size: 14px;
+	background-color: #ffffff
+	color: #000000;
+}
+header {
+	text-align: center;
+	color: ;
+	background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #1FDA9A;
+    border-top-color: #1DD194;
+    border-top-style: solid;
+    border-top-width: 1vw;
+    border-right-color: #1DD194;
+    border-right-style: solid;
+    border-right-width: 1vw;
+    border-bottom-color: #1DD194;
+    border-bottom-style: solid;
+    border-bottom-width: 1vw;
+    border-left-color: #1DD194;
+    border-left-style: solid;
+    border-left-width: 1vw;
+}
